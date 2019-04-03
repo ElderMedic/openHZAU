@@ -1,0 +1,51 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>周雨微绿意 - Powered by aXmag</title> 
+</head>
+<body bgcolor="#888888" style="margin:0px" > 
+<!-- saved from url=(0013)about:internet -->
+<script language="JavaScript" type="text/javascript">
+	function getURLParam(strParamName){
+    	var strReturn = "";
+    	var strHref = window.location.href;
+   		if ( strHref.indexOf("?") > -1 ){
+      		var strQueryString = strHref.substr(strHref.indexOf("?")).toLowerCase();
+      		var aQueryString = strQueryString.split("&");
+      		for ( var iParam = 0; iParam < aQueryString.length; iParam++ ){
+        		if ( aQueryString[iParam].indexOf(strParamName.toLowerCase() + "=") > -1 ){
+          			var aParam = aQueryString[iParam].split("=");
+          			strReturn = aParam[1];
+          			break;
+        		}
+      		}
+    	}
+    	return unescape(strReturn);
+  	}
+ 
+	document.write(
+    '<OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"\n'+
+    '  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0"\n'+   
+    '  WIDTH="100%" HEIGHT="100%" id="idswf" align="TL">\n'+
+    '  <PARAM NAME="allowScriptAccess" value="sameDomain" />\n'+
+  	'  <PARAM NAME="allowFullScreen" value="true" />\n'+
+    '  <PARAM NAME=movie '+
+    '    VALUE="main.swf?page='+getURLParam('page')+'" />\n'+
+    '  <PARAM NAME=quality VALUE=high />\n'+
+    '  <PARAM NAME=bgcolor VALUE=#888888 />' + 
+    '  <PARAM NAME=scale VALUE=noscale />\n'+
+	'  <PARAM NAME=align VALUE=TL />\n'+
+	'  <PARAM NAME=salign VALUE=TL />\n'+
+    '  <EMBED src="main.swf?page=' + getURLParam('page') + '"' +
+    '    bgcolor=#888888 WIDTH="100%" HEIGHT="100%" '+ 
+    '    quality="high"' +
+    '    scale="noscale"' +
+    '    name="nameswf"' +
+	'    align="TL"' +
+	'    salign="TL"' +
+    '    allowFullScreen="true"' +
+    '    TYPE="application/x-shockwave-flash"'+
+    '  />\n'+
+    '</OBJECT>\n');
+</script>
+</body>
