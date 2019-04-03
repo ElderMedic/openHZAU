@@ -1,6 +1,8 @@
 # Project openHZAU
 >华中农业大学课程资料互助整理分享计划
 
+![logo](https://github.com/ElderMedic/openHZAU/blob/master/logo.png)
+      
 # Preface 前言
 
 ### 2019.2.28 “加利福尼亚大学系统近日正式宣布：它将停止订阅由全球最大的科学出版商爱思唯尔（Elsevier）出版的所有期刊。这一行动也宣告了美国著名大学系统和出版商近 8 个月拉锯战的结束。”
