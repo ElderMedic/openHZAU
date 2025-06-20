@@ -1,9 +1,0 @@
-﻿注意：由于当时是在线考试，考题设置了选项乱序，因此可能试卷上部分题的选项与答案中的选项不符，导致答案“错误”。
-
-判断题：TFFTF
-单选题：DBCAD  DBBDA
-填空题：ACAAC
-计算题1：BBAD (BD) ACC
-计算题2：TTTT  FTFF  TT
-专业题1：(CDE) ADBCA
-专业题2：BCCBB
